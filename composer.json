@@ -1,0 +1,23 @@
+{
+    "name": "moji/appsalon",
+    "description": "Proyecto App Salón de Belleza, PHP8, MVC, GULP, SQL, SASS.",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "MVC\\" : "./",
+            "Controller\\" : "./controllers",
+            "Model\\" : "./models",
+            "Classes\\" : "./classes"
+        }
+    },
+    "authors": [
+        {
+            "name": "Carlos Mojica",
+            "email": "carlosmojica7@hotmail.com"
+        }
+    ],
+    "require": {
+        "phpmailer/phpmailer": "^6.6",
+        "vlucas/phpdotenv": "^5.4"
+    }
+}
